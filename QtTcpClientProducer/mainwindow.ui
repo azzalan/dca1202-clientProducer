@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>497</width>
-    <height>260</height>
+    <width>492</width>
+    <height>316</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,62 +20,114 @@
       <x>40</x>
       <y>40</y>
       <width>420</width>
-      <height>132</height>
+      <height>189</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
-     <item row="0" column="0" colspan="2">
-      <widget class="QLineEdit" name="ipInput"/>
-     </item>
-     <item row="0" column="2" rowspan="5">
-      <widget class="QTextBrowser" name="textDisplay"/>
-     </item>
-     <item row="1" column="0">
-      <widget class="QPushButton" name="connectButton">
-       <property name="text">
-        <string>Connect</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="1">
+     <item row="3" column="1">
       <widget class="QPushButton" name="disconnectButton">
        <property name="text">
         <string>Disconnect</string>
        </property>
       </widget>
      </item>
-     <item row="2" column="0">
-      <widget class="QSpinBox" name="minInput"/>
-     </item>
-     <item row="2" column="1">
+     <item row="5" column="1">
       <widget class="QSpinBox" name="maxInput"/>
      </item>
-     <item row="3" column="0" colspan="2">
+     <item row="1" column="0" colspan="2">
+      <widget class="QLineEdit" name="ipInput"/>
+     </item>
+     <item row="1" column="2" rowspan="8">
+      <widget class="QTextBrowser" name="textDisplay"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QSpinBox" name="minInput"/>
+     </item>
+     <item row="7" column="0" colspan="2">
       <widget class="QSpinBox" name="timingInput"/>
      </item>
-     <item row="4" column="0">
+     <item row="8" column="0">
       <widget class="QPushButton" name="startButton">
        <property name="text">
         <string>Start</string>
        </property>
       </widget>
      </item>
-     <item row="4" column="1">
+     <item row="8" column="1">
       <widget class="QPushButton" name="stopButton">
        <property name="text">
         <string>Stop</string>
        </property>
       </widget>
      </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="connectButton">
+       <property name="text">
+        <string>Connect</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Timing(s)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Max</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Min</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Ip</string>
+       </property>
+      </widget>
+     </item>
     </layout>
    </widget>
+   <zorder>pushConnect</zorder>
+   <zorder>ipInput</zorder>
+   <zorder>ipInput_2</zorder>
+   <zorder>ipInput_3</zorder>
+   <zorder>ipInput_4</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>lineEdit_2</zorder>
+   <zorder>lineEdit_3</zorder>
+   <zorder>lineEdit_4</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>pushButton_4</zorder>
+   <zorder>textBrowser</zorder>
+   <zorder>connectButton</zorder>
+   <zorder>disconnectButton</zorder>
+   <zorder>startButton</zorder>
+   <zorder>stopButton</zorder>
+   <zorder>ipInput</zorder>
+   <zorder>minInput</zorder>
+   <zorder>maxInput</zorder>
+   <zorder>timingInput</zorder>
+   <zorder>textDisplay</zorder>
+   <zorder>label_4</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>497</width>
+     <width>492</width>
      <height>21</height>
     </rect>
    </property>
