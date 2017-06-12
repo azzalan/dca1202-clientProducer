@@ -22,7 +22,7 @@ Projeto avaliativo para a turma 2 do componente curricular DCA1202 do curso de B
 <b>ui</b><br/>
 Interface de usuário.<br/>
 
-<b>socket</b>
+<b>socket</b><br/>
 Socket para realizar a conexão com o servidor.<br/>
 
 <b>timer</b><br/>
